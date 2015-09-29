@@ -65,6 +65,7 @@ while True:
 
         clue = getClues(guess, secretNum)
         print(clue)
+        print
         numGuesses += 1
 
         if guess == secretNum:
